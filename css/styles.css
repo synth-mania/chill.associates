@@ -23,9 +23,10 @@ nav ul {
     width: fit-content;  /* Only as wide as needed */
 }
 
-nav li {
-    /* Removed flex: 1 */
-}
+/* Removed flex: 1 */
+/* nav li {
+    
+} */
 
 nav a {
     text-decoration: none;
