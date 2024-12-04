@@ -8,7 +8,6 @@ nav {
   position: left;
   top: 0;
   left: 0;
-  /* width: 250px; */
   padding-right: 20px;
   height: 100%;
   padding-top: 20px;
@@ -27,9 +26,4 @@ nav ul li {
 nav ul li a {
   text-decoration: none;
   color: #e6e6e6;
-}
-
-main {
-  position: right;
-  /* margin-left: 250px; */
 }
