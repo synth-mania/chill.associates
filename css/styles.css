@@ -2,8 +2,8 @@
     --primary-bg-color: #242c70;
     --text-color: #e6e6e6;
     --link-color: hsl(0, 0%, 90%);
-    --header-bg-color: #0b0227;
-    --nav-bg-color: #0b0227;
+    --header-bg-color: #000000;
+    --nav-bg-color: #000000;
     --nav-width: 239px; /* icon width */
     --bannar-width: 970px;
 }
