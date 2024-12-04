@@ -1,11 +1,14 @@
 :root {
-    --primary-bg-color: #462d8d;
+    --primary-bg-color: #242c70;
     --text-color: #e6e6e6;
     --link-color: hsl(0, 0%, 90%);
     --header-bg-color: #0b0227;
     --nav-bg-color: #0b0227;
-    --nav-width: 239px;
+    --nav-width: 239px; /* icon width */
+    --bannar-width: 970px;
 }
+
+/* 239 + 970 */
 
 html, body {
     display: flex;
@@ -27,8 +30,22 @@ header {
     margin: 0px; */
     display: flex;
     height: 100px;
+    width: 100%;
     /* text-align: center; */
     background-color: var(--header-bg-color);
+}
+
+.banner {
+    /* text-align: right; */
+    margin-left: auto;
+    margin-right: auto;
+    /* width: 100%; */
+}
+
+.banner_small {
+    margin-left: auto;
+    margin-right: auto;
+    display: none;
 }
 
 .container {
@@ -58,6 +75,8 @@ nav ul {
 
 nav ul li {
     margin-bottom: 10px;
+    font-size: larger;
+    text-align: center;
 }
 
 main {
@@ -65,13 +84,31 @@ main {
     padding-left: 20px;
 }
 
+@media (max-width: 1209px) { /* Hide banner for screens less than 1000px */
+    .banner {
+        display: none;
+    }
+    .banner_small {
+        display: block;
+    }
+}
+
 @media (max-width: 500px) { /* Adjust the breakpoint as needed */
+    .banner {
+        display: none;
+    }
+
+    .banner_small {
+        display: none;
+    }
+    
     .container {
         flex-direction: column; /* Stack navigation and content vertically */
     }
 
     header {
         flex-direction: column;
+        text-align: center;
     }
 
     nav {
