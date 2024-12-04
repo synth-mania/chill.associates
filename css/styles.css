@@ -1,5 +1,5 @@
 :root {
-    --primary-bg-color: #321979;
+    --primary-bg-color: #462d8d;
     --text-color: #e6e6e6;
     --link-color: hsl(0, 0%, 90%);
     --header-bg-color: #0b0227;
@@ -33,6 +33,7 @@ header {
 
 .container {
     display: flex; /* Flex container for nav and main */
+    height: 100%;
 }
 
 .container p {
