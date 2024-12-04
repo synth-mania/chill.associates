@@ -1,83 +1,35 @@
-/* Basic reset and body styles */
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
 body {
-    font-family: 'Courier New', monospace;
-    line-height: 1.6;
+  display: flex;
+  background-color: #40208c;
+  color: #e6e6e6;
 }
 
-/* Navigation styles */
 nav {
-    margin-bottom: 20px;
-    background-color: white;
-    width: 100%;
+  position: left;
+  top: 0;
+  left: 0;
+  /* width: 250px; */
+  padding-right: 20px;
+  height: 100%;
+  padding-top: 20px;
 }
 
 nav ul {
-    list-style: none;
-    display: flex;
-    width: fit-content;  /* Only as wide as needed */
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
 }
 
-/* Removed flex: 1 */
-/* nav li {
-    
-} */
-
-nav a {
-    text-decoration: none;
-    color: #333;
-    padding: 10px 20px;  /* Consistent padding */
-    transition: all 0.2s ease;
-    border: 1px solid transparent;
-    display: block;
+nav ul li {
+  margin-bottom: 10px;
 }
 
-nav a:hover {
-    background-color: #f0f0f0;
-    border: 1px solid #e0e0e0;
+nav ul li a {
+  text-decoration: none;
+  color: #e6e6e6;
 }
 
-nav a:active {
-    color: #000;
-    background-color: #e0e0e0;
-    border: 1px solid #d0d0d0;
-}
-
-
-/* Main content layout */
 main {
-    text-align: left;
-    margin-top: 20px;
-    padding: 0 10px;  /* Reduced padding */
-    max-width: 600px;  /* Constrain main content width */
-    margin-left: 10px;  /* Small left margin for main content */
-}
-
-h1 {
-    font-size: 2.5em;
-    margin-bottom: 20px;
-}
-
-main p {
-    font-size: 1.2em;
-    line-height: 1.6;
-    color: #333;
-}
-
-main ul {
-    list-style: none;  /* Removes bullet points */
-}
-
-main ul li {
-    margin-bottom: 15px;  /* Adds space between list items */
-}
-
-/* If you want to remove the margin from the last item */
-main ul li:last-child {
-    margin-bottom: 0;
+  position: right;
+  /* margin-left: 250px; */
 }
