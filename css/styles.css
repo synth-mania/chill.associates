@@ -31,6 +31,11 @@ header {
     background-color: var(--header-bg-color);
 }
 
+header a {
+
+    text-decoration: none;
+}
+
 .ascii-banner {
 
     font-family: 'Courier New', Courier, monospace;
