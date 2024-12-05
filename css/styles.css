@@ -85,9 +85,18 @@ main {
     padding-left: 20px;
 }
 
-main ul li { /* for link or other element lists, so they arent so cluttered */
-    margin-top: 6px;
-    margin-bottom: 6px;
+.content {
+    padding: 10px;
+}
+
+.link-list {
+    padding-left: 20px;
+    list-style: none;
+}
+
+.link-list li { /* for link or other element lists, so they arent so cluttered */
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 @media (max-width: 600px) { /* Adjust the breakpoint as needed */
