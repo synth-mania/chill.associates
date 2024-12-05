@@ -87,16 +87,19 @@ main {
 
 .content {
     padding: 10px;
+    width: 1000px;
 }
 
 .link-list {
     padding-left: 20px;
-    list-style: none;
+    /* list-style: none; */
 }
 
 .link-list li { /* for link or other element lists, so they arent so cluttered */
-    margin-top: 10px;
-    margin-bottom: 10px;
+    /* margin-top: 15px; */
+    margin-bottom: 15px;
+    padding-bottom: 5px;
+
 }
 
 @media (max-width: 600px) { /* Adjust the breakpoint as needed */
